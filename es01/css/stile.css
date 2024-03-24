@@ -1,6 +1,45 @@
 body {
-    background-color: antiquewhite;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    background-color: rgb(164, 223, 192);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5cap;
+    padding-top: 5cap;
+}
+
+.bandiera{
+    background-color: rgb(255, 255, 255);
+    height: 280px; 
+    width: 400px; 
+    border: 1px solid black;
+    position: relative;
+    margin-top: 10px;
 }
 
 .nome {font-style: italic;}
+
+.blu{
+    background-color: blue;
+}
+
+.bianco{
+    background-color: rgb(255, 255, 255);
+}
+
+.bandiera div {
+
+   float: left
+   ; height: 33.3px;
+    width: 400px;
+}
+
+.quadrato {
+
+   position: absolute;
+    width: 50%;
+    height: 40px;
+    top: 52%;
+    left: 52%;
+    z-index: 1;
+    background-color: brown;
+    top: 0%;
+    left: 0%;
+ }
