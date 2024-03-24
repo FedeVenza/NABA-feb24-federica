@@ -34,12 +34,12 @@ body {
 .quadrato {
 
    position: absolute;
-    width: 50%;
-    height: 40px;
+    width: 400px;
+    height: 400px;
     top: 52%;
     left: 52%;
     z-index: 1;
     background-color: brown;
-    top: 0%;
+    top: 0%; nbnnhmn
     left: 0%;
  }
