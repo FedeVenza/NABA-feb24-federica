@@ -5,7 +5,7 @@ body {
     padding-top: 5cap;
 }
 
-.bandiera{
+.sezione {
     background-color: rgb(255, 255, 255);
     height: 280px; 
     width: 400px; 
@@ -13,6 +13,7 @@ body {
     position: relative;
     margin-top: 10px;
 }
+
 
 .nome {font-style: italic;}
 
@@ -25,21 +26,35 @@ body {
 }
 
 .bandiera div {
-
+position: relative;
    float: left
    ; height: 33.3px;
     width: 400px;
 }
 
 .quadrato {
-
-   position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 52%;
-    left: 52%;
-    z-index: 1;
+    position: absolute;
+    width:50%;
+    height: 90%;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
     background-color: brown;
-    top: 0%; nbnnhmn
-    left: 0%;
+    border: 1px solid blue;
+    top: 1%; 
+    left: 1%;
  }
+
+ .verde {
+    background-color: green ;
+}
+
+.rosso {
+    background-color: red ;
+}
+
+.strisce {
+    width: 400px;
+    height: 133.3pxS;
+}
+
