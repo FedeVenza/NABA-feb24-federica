@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_2" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 231">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #544a4a;
+      }
+    </style>
+  </defs>
+  <g id="Livello_1-2" data-name="Livello 1">
+    <rect class="cls-2" x="42" y="174" width="261" height="57"/>
+    <rect class="cls-2" x="11" y="154" width="322" height="20"/>
+    <rect class="cls-2" x="125" y="8" width="55" height="88"/>
+    <rect class="cls-2" x="136" width="33" height="13"/>
+    <rect class="cls-2" x="208" y="36" width="33" height="13"/>
+    <rect class="cls-2" x="197" y="47" width="55" height="49"/>
+    <rect class="cls-2" x="31" y="154" width="12" height="66"/>
+    <rect class="cls-2" x="81" y="108" width="227" height="46"/>
+    <rect class="cls-2" x="81" y="97" width="216" height="11"/>
+    <circle class="cls-2" cx="136" cy="11" r="11"/>
+    <circle class="cls-2" cx="81" cy="108" r="11"/>
+    <circle class="cls-2" cx="297" cy="108" r="11"/>
+    <circle class="cls-2" cx="169" cy="11" r="11"/>
+    <circle class="cls-2" cx="208" cy="47" r="11"/>
+    <circle class="cls-1" cx="135" cy="131" r="11"/>
+    <circle class="cls-1" cx="186" cy="131" r="11"/>
+    <circle class="cls-1" cx="234" cy="131" r="11"/>
+    <circle class="cls-2" cx="241" cy="47" r="11"/>
+    <circle class="cls-2" cx="11" cy="165" r="11"/>
+    <circle class="cls-2" cx="44" cy="220" r="11"/>
+    <circle class="cls-2" cx="333" cy="165" r="11"/>
+    <circle class="cls-2" cx="303" cy="220" r="11"/>
+    <rect class="cls-2" x="49.57" y="119.14" width="55.76" height="39.43" transform="translate(-80.75 154.83) rotate(-66.61)"/>
+    <rect class="cls-2" x="278.79" y="174.77" width="60.79" height="35.67" transform="translate(-4.36 378.02) rotate(-62.52)"/>
+    <rect class="cls-2" x="-2.44" y="176.02" width="67.37" height="29.95" transform="translate(-118.55 313.55) rotate(-120)"/>
+  </g>
+</svg>
