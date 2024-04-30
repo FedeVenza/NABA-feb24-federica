@@ -17,8 +17,8 @@ body {
     display: block
 }
 
-/* On screens that are 500px or less, set the background color to olive */
-@media only screen and (max-width: 600px) {
+/* non funzionano */
+/*@media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
@@ -39,23 +39,51 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-    /* qui proprietà per il mobile */
+    /* qui proprietà per il mobile
     .cinque-forme > div {
         width: 150px;
         height: 150px;
 
         border: 1px solid black;
         border-radius: 15px;
-        
+
 
     }
     .cinque-forme > div img {
         max-width: 100%;
         max-height: 100%;
-    }
+    }*/
 
+/*l'unico maledetto che funziona, se si cambia l widht smette di funzionare */
+@media screen and (max-width: 500px) {
+    body {
+      background-color: blue;
+      margin: 2%;
+    }
+    .cinque-forme > div {
+        width: 140px;
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 15px;
+        align-items: center;
+        display: flex;
+        padding: 1%;
+   }
+   
+    .cinque-forme > div img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;    
+    PADDING-left: 3%;
+    margin: 3%;
+  }
 }
 
-@media only screen and (min-width: 501px) and (max-width: 850px) {
+
+@media only screen and (min-width: 993px) and (max-width: 1010px) {
     /* qui scriveremo le proprietà per il tablet */
+body
+{  background-color:beige
+
+}
 }
