@@ -22,6 +22,25 @@ body {
     body{ 
         background-color:lightgreen;
     }
+
+    .cinque-forme > div {
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            border-radius: 15px;
+            align-items: center;
+            display: flex;
+            padding: 1%;
+            margin: 1%;
+       }
+       
+     .cinque-forme > div img {
+        max-width: 90%;
+        max-height: 90%;
+        display: block;    
+        PADDING-left: 3%;
+        margin: 2%;
+    }
 }
 
 /*TABLET*/
