@@ -14,7 +14,7 @@ body {
 }
 
 .cinque-forme > div img{
-    display: block
+    display: block;
 }
 
 /* non funzionano */
@@ -27,7 +27,7 @@ body {
         width: 150px;
         height: auto;
 
-        border: 1px solid black
+        border: 1px solid black;
         border-radius: 15px;
       }
 

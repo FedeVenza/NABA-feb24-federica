@@ -1,0 +1,39 @@
+body {
+    background-color: red;
+}
+
+.cinque-forme{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.cinque-forme > div{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cinque-forme > div img{
+    display: block;
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 500px)  {
+    body{ 
+        background-color:lightgreen;
+    }
+}
+
+/*TABLET*/
+@media only screen and (min-width: 501px) and (max-width: 750px)  {
+    body{ 
+        background-color:rgb(73, 151, 73);
+    }
+}
+
+/*DEKSTOP*/
+@media only screen and (min-width: 751px)  {
+    body{ 
+        background-color:rgb(22, 68, 22);
+    }
+}
