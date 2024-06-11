@@ -49,15 +49,6 @@ body {
     display: block;
 }
 
-div.sticky{
-    display: block;
-    padding: 20px;
-    border: 1px solid black;
-    width: 250px;
-    position: sticky;
-    margin-left: 500px;
-}
-
 .sticky a{
     display: block;
     font-size: 60px;
@@ -65,7 +56,17 @@ div.sticky{
     text-align: right;
 }
 
-.img {
+div .sticky{
+    display: block;
+    padding: 20px;
+    border: 1px solid black;
+    width: 250px;
+    margin-left: 1400px;
+    position: sticky;
+    top: 0;
+}
+
+img {
     display: block;
     width: 100%;
     height: auto;
