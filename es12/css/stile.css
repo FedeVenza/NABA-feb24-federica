@@ -1,0 +1,39 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: medium;
+}
+
+
+.title{
+    font-size: 60px;
+}
+
+.corsivo-title{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenitore{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    width: 20%;
+    margin-right: 2%;
+}
+
+.col-1{
+border-right: 1px solid black;
+margin-left: 2%;
+}
+
+.col:last-child {
+    margin-right: 0px;
+}
+
+.col-2{
+    width: 60%;
+}
