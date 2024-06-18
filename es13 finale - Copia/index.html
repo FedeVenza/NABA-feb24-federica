@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di esempio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .sticky-vertical-menu {
+            position: sticky;
+            top: 0;
+            margin-left: auto;
+            width: 250px;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: #f8f9fa;
+        }
+        .sticky-vertical-menu a {
+            display: block;
+            font-size: 20px;
+            text-decoration: none;
+            margin-bottom: 10px;
+            color: black;
+        }
+        .full-screen-image {
+            height: 100vh;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenuto principale -->
+    <div class="content">
+        <div class="full-screen-image"></div>
+        <div class="content-section">
+            <h1>Content Section</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat nunc quis arcu fermentum, non suscipit nulla sollicitudin. Integer vel gravida neque, nec cursus enim. Suspendisse potenti. Maecenas ac orci ultricies, tincidunt nisl sed, dignissim nunc. Nulla facilisi. Aenean at erat at nulla gravida venenatis. Donec sit amet feugiat orci. Proin suscipit metus sit amet dignissim consectetur.</p>
+            <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Placeholder Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat nunc quis arcu fermentum, non suscipit nulla sollicitudin. Integer vel gravida neque, nec cursus enim. Suspendisse potenti. Maecenas ac orci ultricies, tincidunt nisl sed, dignissim nunc. Nulla facilisi. Aenean at erat at nulla gravida venenatis. Donec sit amet feugiat orci. Proin suscipit metus sit amet dignissim consectetur.</p>
+            <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Placeholder Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat nunc quis arcu fermentum, non suscipit nulla sollicitudin. Integer vel gravida neque, nec cursus enim. Suspendisse potenti. Maecenas ac orci ultricies, tincidunt nisl sed, dignissim nunc. Nulla facilisi. Aenean at erat at nulla gravida venenatis. Donec sit amet feugiat orci. Proin suscipit metus sit amet dignissim consectetur.</p>
+            <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Placeholder Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat nunc quis arcu fermentum, non suscipit nulla sollicitudin. Integer vel gravida neque, nec cursus enim. Suspendisse potenti. Maecenas ac orci ultricies, tincidunt nisl sed, dignissim nunc. Nulla facilisi. Aenean at erat at nulla gravida venenatis. Donec sit amet feugiat orci. Proin suscipit metus sit amet dignissim consectetur.</p>
+        </div>
+    </div>
+
+    <!-- Menu verticale sticky -->
+    <nav class="sticky-vertical-menu">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

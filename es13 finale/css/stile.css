@@ -51,7 +51,7 @@ body {
 
 .sticky a{
     display: block;
-    font-size: 60px;
+    font-size: 40px;
     text-decoration: none;
     text-align: right;
 }
@@ -60,11 +60,13 @@ div .sticky{
     display: block;
     padding: 20px;
     border: 1px solid black;
-    width: 250px;
-    margin-left: 1400px;
+    width: 150px;
+    margin-left: 1200px;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
+
 
 img {
     display: block;
